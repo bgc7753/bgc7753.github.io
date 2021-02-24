@@ -2667,8 +2667,9 @@ input, select, textarea {
 
 		ul.contact li {
 			text-decoration: none;
-			margin: 2.5em 0 0 0;
-			padding: 0 0 0 3.25em;
+			margin: 0.75em 0 0 0;
+			/* Margin used to be 2.5em */
+			padding: 0 0 0 2.5em;
 			position: relative;
 		}
 
@@ -2691,10 +2692,11 @@ input, select, textarea {
 				display: inline-block;
 				font-size: 0.8em;
 				height: 2.5em;
-				left: 0;
+				left: auto;
 				line-height: 2.35em;
-				position: absolute;
+				position: relative;
 				text-align: center;
+				/* Added position absolute -> relative */
 				top: 0;
 				width: 2.5em;
 			}
@@ -3610,8 +3612,7 @@ input, select, textarea {
 
 		#wrapper > header {
 			padding: 6.5em 2em 3em 2em ;
-			background-size: auto,
- 125%;
+			background-size: auto,125%;
 			margin-bottom: -2.5em;
 		}
 
@@ -3640,7 +3641,7 @@ input, select, textarea {
 		}
 
 		.wrapper:after {
-			box-shadow: inset 0 -1px 0 0 #2e3141, 0 1px 0 0 #2e3141;
+			box-shadow: inset 0 -150px 0 0 #2e3141, 0 1px 0 0 #2e3141;
 		}
 
 		.wrapper:before, .wrapper:after {
@@ -4009,7 +4010,9 @@ input, select, textarea {
 /* Footer */
 
 	#footer .inner {
-		padding: 5em 0 3em 0 ;
+		/* background-color: black; */
+		padding: 5em 0 em 0 ;
+		/* Changed padding, used to be 5 0 10 0 */
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -4024,6 +4027,8 @@ input, select, textarea {
 		flex-wrap: wrap;
 		margin: 0 auto;
 		width: 55em;
+		text-align: left;
+		/* Added text-align */
 	}
 
 		#footer .inner > * {
@@ -4042,7 +4047,8 @@ input, select, textarea {
 		#footer .inner .copyright {
 			border-top: solid 2px rgba(255, 255, 255, 0.125);
 			list-style: none;
-			margin: 4em 0 2em 0;
+			margin: 0em 0 0em 0;
+			/* Changed margin, used to be 4 0 2 0 */
 			padding: 2em 0 0 0;
 			width: 100%;
 		}
