@@ -3026,14 +3026,15 @@ input, select, textarea {
 				margin-top: -1.75em;
 				position: relative;
 				width: calc(100% + 3.5em);
-				/* height: 4em; */
-				/* object-fit: fill; */
 				background-color: #ffffff;
 			}
 
 				.features article .image img {
 					border-radius: 5px 5px 0 0;
 					width: 100%;
+					/* height: 14em; */
+					/* object-fit: contain; */
+					/* Need to edit image sizes to be consistent */
 				}
 
 		@media screen and (max-width: 980px) {
