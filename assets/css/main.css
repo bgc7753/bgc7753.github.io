@@ -3026,6 +3026,9 @@ input, select, textarea {
 				margin-top: -1.75em;
 				position: relative;
 				width: calc(100% + 3.5em);
+				/* height: 4em; */
+				/* object-fit: fill; */
+				background-color: #ffffff;
 			}
 
 				.features article .image img {
