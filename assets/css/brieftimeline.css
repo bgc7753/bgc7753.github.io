@@ -1,0 +1,73 @@
+.gantt-container {
+    /* background-color: black; */
+    margin: 0 auto;
+    width: 55em;
+    display: block;
+}
+
+.gantt-container .chart {
+    display: grid;
+    margin-top: 20px;
+    row-gap: 0.5em;
+    grid-template-columns: repeat(24, 1fr);
+}
+
+.gantt-container .chart div {
+    text-align: center;
+    background-color: #292a37;
+    color:#34ace0;
+    font-family: Raleway, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 0.75em;
+}
+
+.gantt-container .chart div .role {
+    font-size: 12px;
+    font-weight: normal !important;
+    display: block;
+    color: white;
+}
+
+.gantt-container .chart div .date {
+    color: WHITE;
+    font-size: 12px;
+    font-weight: normal !important;
+    font-style: italic;
+}
+
+.gantt-entry-1 {
+    /* border-top: 8px dashed white; */
+    background-image: linear-gradient(to right, rgb(255, 255, 255) 33%, rgba(0, 0, 0, 0) 0%);
+    background-position: top;
+    background-size: 10px 3px;
+    background-repeat: repeat-x;
+    border-radius: 0px !important;
+    background-color: #2e3141 !important;
+    grid-column: 1/ span 24;
+    grid-row: 6/6;
+}
+
+.gantt-entry-3 {
+    grid-column: 2/span 6;
+    grid-row: 4/4;
+}
+
+.gantt-entry-4 {
+    grid-column: 9/span 6;
+    grid-row: 3/3;
+}
+
+.gantt-entry-5 {
+    grid-column: 16/span 11;
+    grid-row: 2/2;
+}
+
+.more {
+    margin-top: 10px;
+}
+
+.more input {
+    margin: auto;
+    display: block;
+}
