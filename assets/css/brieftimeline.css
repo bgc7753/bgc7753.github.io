@@ -1,7 +1,7 @@
 .gantt-container {
     /* background-color: black; */
     margin: 0 auto;
-    width: 55em;
+    width: 100%;
     display: block;
 }
 
@@ -18,7 +18,7 @@
     color:#34ace0;
     font-family: Raleway, Helvetica, sans-serif;
     font-weight: bold;
-    border-radius: 20px;
+    border-radius: 15px;
     padding: 0.75em;
 }
 
@@ -70,4 +70,21 @@
 .more input {
     margin: auto;
     display: block;
+}
+
+@media screen and (max-width: 480px) {
+    .gantt-entry-3 {
+        grid-column: 1/span 24;
+        grid-row: 4/4;
+    }
+    
+    .gantt-entry-4 {
+        grid-column: 1/span 24;
+        grid-row: 3/3;
+    }
+    
+    .gantt-entry-5 {
+        grid-column: 1/span 24;
+        grid-row: 2/2;
+    }
 }

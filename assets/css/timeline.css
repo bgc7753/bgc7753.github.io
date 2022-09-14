@@ -6,11 +6,11 @@
 }
 .timeline ul{
   list-style-type:none;
-  border-left:2px solid #094a68;
+  border-left: 2px solid #094a68;
   padding:10px 5px;
 }
 .timeline ul li{
-  padding:20px 20px;
+  padding: 20px 20px;
   position:relative;
   cursor:pointer;
   transition:.5s;
@@ -60,4 +60,22 @@
     font-size:15px;
   }
 
+}
+
+ul.takeaways {
+  padding: 10px !important;
+  border-left: 0px !important;
+}
+
+ul.takeaways li {
+  padding: 0px 10px;
+  margin-top: 5px;
+  vertical-align: middle;
+  position: relative;
+}
+
+.takeaways li:before{
+  width:10px;
+  height:10px;
+  top: 10px !important;
 }
