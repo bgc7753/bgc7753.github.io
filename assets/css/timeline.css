@@ -79,3 +79,19 @@ ul.takeaways li {
   height:10px;
   top: 10px !important;
 }
+
+.content h6 {
+  font-style: italic;
+  font-weight: normal;
+}
+
+.more {
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+  .more a {
+    padding: 0 1em;
+  }
+}
